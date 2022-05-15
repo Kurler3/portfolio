@@ -16,7 +16,7 @@ const Footer = () => {
 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Learning new technologies</Slogan>
+          <Slogan>Thank you for reading :)</Slogan>
         </CompanyContainer>
         <SocialContainer>
           {/* GITHUB */}

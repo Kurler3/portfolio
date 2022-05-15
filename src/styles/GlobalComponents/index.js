@@ -279,3 +279,27 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+
+
+// SCROLL BACK TO TOP BUTTON
+
+export const ScrollTopButton = styled.button`
+  display: none;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  color: white; 
+  background:transparent;
+  border: 1px solid white;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 15px; 
+  transition: 0.2s all ease;
+
+  &:hover {
+    background-color: #555; 
+  }
+`
