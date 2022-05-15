@@ -2,11 +2,27 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, ProfileImg } from './HeroStyles';
 
 const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
+        <ProfileImg
+          // src='https://avatars.githubusercontent.com/u/43253459?s=400&u=20fd8ca76a5e5d16b5cdebc176e18ed4fe296dbe&v=4'
+          // alt="profile_pic"
+        >
+          <img 
+            src="https://avatars.githubusercontent.com/u/43253459?s=400&u=20fd8ca76a5e5d16b5cdebc176e18ed4fe296dbe&v=4"
+            alt="Profile_pic"
+            width="100%"
+            height="100%"
+            style={{
+              objectPosition: "50% 50%",
+              marginLeft:'2px',
+              marginTop:"1px",
+            }}
+          />
+        </ProfileImg>
         <SectionTitle main center>
            Hi there! <br />
            I'm Miguel

@@ -44,3 +44,24 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+
+
+export const LANGUAGES_SPOKEN = [
+  {
+    name: 'Portuguese',
+    level: "Native",
+  },
+  {
+    name: 'English',
+    level: "Fluent",
+  },
+  {
+    name: 'Chinese',
+    level: "Fluent",
+  },
+  {
+    name: 'French',
+    level: "Intermediate",
+  },
+]

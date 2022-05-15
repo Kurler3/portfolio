@@ -1,6 +1,6 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
+import LanguagesSpoken from '../components/LanguagesSpoken/LanguagesSpoken';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
@@ -16,8 +16,11 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      <LanguagesSpoken />
+
+      {/* ABOUT ME */}
       <Timeline />
-      <Acomplishments />
+      
     </Layout>
   );
 };
