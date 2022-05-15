@@ -122,3 +122,9 @@ export const SocialIcons = styled.a`
     
   }
 `
+
+
+// TITLE
+export const Span = styled.span`
+  font-size: 2rem;
+`
