@@ -1,3 +1,152 @@
+
+const PROGRAMMING_LANGUAGE_ICON_SIZE = "4rem";
+
+import {
+  DiVisualstudio,
+  DiAndroid,
+  DiHtml5,
+  DiCss3,
+  DiSass,
+  DiJava,
+  DiJavascript,
+  DiPython,
+  DiDart,
+  DiReact,
+  DiMongodb,
+  DiMysql,
+} from 'react-icons/di';
+
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiKotlin,
+  SiRedux,
+  SiNextDotJs,
+  SiGraphql,
+  SiFlutter,
+  SiFirebase,
+  SiGithub,
+ 
+} from 'react-icons/si';
+
+import {
+  FaNode,
+} from 'react-icons/fa';
+
+
+export const PROGRAMMING_LANGUAGES = [
+  // VISUAL STUDIO CODE
+  {
+    name: 'Visual Studio Code',
+    icon: <DiVisualstudio size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>,
+  },
+  // ANDROID STUDIO
+  {
+    name:"Android Studio",
+    icon: <DiAndroid size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // HTML 5
+  {
+    name: "HTML5",
+    icon: <DiHtml5 size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // CSS3
+  {
+    name: "CSS3",
+    icon: <DiCss3 size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // SASS
+  {
+    name: "SASS",
+    icon: <DiSass size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // TAILWINDCSS
+  {
+    name: "TailwindCSS",
+    icon: <SiTailwindcss size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // JAVA
+  {
+    name: "Java",
+    icon: <DiJava size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // JAVASCRIPT
+  {
+    name: "JavaScript",
+    icon: <DiJavascript size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // TYPESCRIPT
+  {
+    name: "TypeScript",
+    icon: <SiTypescript size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // PYTHON
+  {
+    name: "Python",
+    icon: <DiPython size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // DART
+  {
+    name: "Dart",
+    icon: <DiDart size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // KOTLIN
+  {
+    name: "Kotlin",
+    icon: <SiKotlin size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // REACT
+  {
+    name: "React.js",
+    icon: <DiReact size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // REDUX
+  {
+    name: "Redux",
+    icon: <SiRedux size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // NEXT
+  {
+    name: "Next.js",
+    icon: <SiNextDotJs size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // GRAPHQL
+  {
+    name: "GraphQL",
+    icon: <SiGraphql size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // FLUTTER
+  {
+    name: "Flutter",
+    icon: <SiFlutter size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // FIREBASE
+  {
+    name: "Firebase",
+    icon: <SiFirebase size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // NODE JS
+  {
+    name: "Node.js",
+    icon: <FaNode size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // MONGODB
+  {
+    name: "MongoDB",
+    icon: <DiMongodb size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // MYSQL
+  {
+    name: "MySQL",
+    icon: <DiMysql size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+  // GITHUB
+  {
+    name: "GitHub",
+    icon: <SiGithub size={PROGRAMMING_LANGUAGE_ICON_SIZE}/>
+  },
+]
+
 export const projects = [
   {
     title: 'MERN Memories',
