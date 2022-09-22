@@ -149,6 +149,15 @@ export const PROGRAMMING_LANGUAGES = [
 
 export const projects = [
   {
+    title: 'TikTak',
+    description: "FullStack website built with Next.js and Sanity",
+    image: '/images/tik_tak.png',
+    tags: ['Next.js', 'Sanity', 'TailwindCSS'],
+    source: 'https://github.com/Kurler3/tiktak',
+    visit: 'https://tiktak-chi.vercel.app/',
+    id: -1,
+  },
+  {
     title: 'AniHub',
     description: "FullStack website build with the MERN stack.",
       image: '/images/anihub.png',

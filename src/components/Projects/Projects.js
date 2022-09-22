@@ -12,8 +12,8 @@ const Projects = () => (
     </SectionTitle>
     <GridContainer>
       {
-        projects.map(({id, image, title, description, tags, source, visit}) => (
-          <BlogCard key={id}>
+        projects.map(({image, title, description, tags, source, visit}, index) => (
+          <BlogCard key={`projects_${index}_${title}`}>
               <Img 
                 src={image}
               />
